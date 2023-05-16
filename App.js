@@ -11,8 +11,9 @@ export default function App() {
         <Image
           style={styles.poster}
           source={{
-            uri: 'https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg',
-          }}></Image>
+            uri: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg",
+          }}
+        ></Image>
         <View style={styles.data}>
           <Text>⭐</Text>
           <Text>8.9</Text>
@@ -37,6 +38,8 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   data: {
-    
-  }
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center"
+  },
 });
