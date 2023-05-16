@@ -16,7 +16,7 @@ export default function App() {
         ></Image>
         <View style={styles.data}>
           <Text>⭐</Text>
-          <Text>8.9</Text>
+          <Text style={styles.nota}>8.9</Text>
         </View>
       </View>
 
@@ -40,6 +40,11 @@ const styles = StyleSheet.create({
   data: {
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
+    padding: 8,
   },
+  nota: {
+    color: '#fff',
+    marginLeft: 8
+  }
 });
