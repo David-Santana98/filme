@@ -1,7 +1,7 @@
-import { Text } from "react-native";
+import { StyleSheet, Text } from "react-native";
 
-export default function SessionTitle() {
-    return <Text style={styles.title}>Filmes em Alta</Text>;
+export default function SessionTitle({children}) {
+    return <Text style={styles.title}>{children}</Text>;
 }
 
 const styles = StyleSheet.create({
