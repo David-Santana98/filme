@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Filmes em Alta</Text>
+      <Text style={styles.title}>Melhores dramas</Text>
       <StatusBar style="auto" />
     </View>
   );
