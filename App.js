@@ -8,7 +8,10 @@ export default function App() {
     <View style={styles.container}>
       <SessionTitle>Filmes em Alta</SessionTitle>
       
-      <CardFilme />
+      <CardFilme nota={8.9}/>
+      <CardFilme nota={6.7}/>
+      <CardFilme nota={8.0}/>
+      
      
       <SessionTitle>Melhores Dramas</SessionTitle>
       <StatusBar style="auto" />

@@ -1,6 +1,6 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 
-export default function CardFilme () {
+export default function CardFilme (props) {
     return (
 
          <View style={styles.card}>
@@ -12,7 +12,7 @@ export default function CardFilme () {
         ></Image>
         <View style={styles.data}>
           <Text>⭐</Text>
-          <Text style={styles.nota}>8.9</Text>
+          <Text style={styles.nota}>{props.nota}</Text>
         </View>
       </View>
     )
