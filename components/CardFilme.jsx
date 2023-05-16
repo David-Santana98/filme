@@ -6,9 +6,7 @@ export default function CardFilme (props) {
          <View style={styles.card}>
         <Image
           style={styles.poster}
-          source={{
-            uri: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg",
-          }}
+          source={props.poster}
         ></Image>
         <View style={styles.data}>
           <Text>⭐</Text>

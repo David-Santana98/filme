@@ -8,9 +8,9 @@ export default function App() {
     <View style={styles.container}>
       <SessionTitle>Filmes em Alta</SessionTitle>
       
-      <CardFilme nota={8.9}/>
-      <CardFilme nota={6.7}/>
-      <CardFilme nota={8.0}/>
+      <CardFilme nota={8.9}  poster={{uri:'https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg'}}/>
+      <CardFilme nota={6.7} poster={{uri:'https://www.themoviedb.org/t/p/w220_and_h330_face/mbYQLLluS651W89jO7MOZcLSCUw.jpg'}}/>
+      <CardFilme nota={8.0} poster={{uri:'https://www.themoviedb.org/t/p/w220_and_h330_face/jGtBLu0JAKf5JxhWgmF68HROzCA.jpg'}}/>
       
      
       <SessionTitle>Melhores Dramas</SessionTitle>
